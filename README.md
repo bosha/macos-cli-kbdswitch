@@ -31,6 +31,15 @@ com.apple.keylayout.RussianWin
 com.apple.inputmethod.ironwood
 ```
 
+### Get Current Active Layout
+
+To get current layout, use the `get` command:
+
+```bash
+➜ ~  kbdswitch get
+com.apple.keylayout.ABC
+```
+
 ### Switch Layouts
 
 To switch to a specific layout, use the `set` command followed by the layout ID:
